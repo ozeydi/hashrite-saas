@@ -7,6 +7,7 @@ interface ButtonProps {
   onClick?: () => void;
   disabled?: boolean;
   className?: string;
+  fullWidth?: boolean; // Add this line
 }
 
 const Button = ({
