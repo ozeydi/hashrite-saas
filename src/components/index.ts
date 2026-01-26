@@ -8,6 +8,8 @@ export { default as FileUpload } from './ui/FileUpload';
 export { default as Button } from './ui/Button';
 export { default as TextInput } from './ui/TextInput';
 export { default as AlgorithmSelector } from './AlgorithmSelector';
+export { default as VerificationResult } from './VerificationResult';
+
 export { default as HashDisplay } from './HashDisplay';
 export { default as FeaturesGrid } from './sections/FeaturesGrid';
 export { default as Footer } from './layout/Footer';
