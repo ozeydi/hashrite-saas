@@ -1,5 +1,5 @@
 import { Shield, Upload, Users } from 'lucide-react';
-import { Card } from '@/components';
+import Card from '../ui/Card';
 
 const FeaturesGrid = () => {
   const features = [

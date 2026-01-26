@@ -8,7 +8,7 @@ interface MainContentProps {
 
 const MainContent = ({ sidebar, main, features }: MainContentProps) => {
   return (
-    <div className='max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8 -mt-8'>
+    <div className='max-w-6xl mx-auto px-4 py-8'>
       <div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>
         {/* Sidebar */}
         <div className='lg:col-span-1'>{sidebar}</div>

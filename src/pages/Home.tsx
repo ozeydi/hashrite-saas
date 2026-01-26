@@ -1,29 +1,37 @@
 import { useState } from 'react';
-import Hero from '@/components/sections/Hero';
-import MainContent from '@/components/sections/MainContent';
-import Sidebar from '@/components/sections/Sidebar';
-import TabContent from '@/components/sections/TabContent';
-import FeaturesGrid from '@/components/sections/FeaturesGrid';
-import Footer from '@/components/layout/Footer';
+import Header from '../components/layout/Header';
+import VerifyTab from '../components/VerifyTab';
+import {
+  FeaturesGrid,
+  Footer,
+  GenerateTab,
+  Hero,
+  MainContent,
+  Sidebar,
+} from '@/components';
 
-const Home = () => {
-  const [activeTab, setActiveTab] = useState<'generate' | 'verify' | 'api'>(
-    'generate',
-  );
+export default function Home() {
+  const [activeTab, setActiveTab] = useState<'generate' | 'verify'>('generate');
+
+  const renderMainContent = () => {
+    if (activeTab === 'generate') {
+      return <GenerateTab />;
+    }
+    return <VerifyTab />;
+  };
 
   return (
-    <div className='min-h-screen bg-gradient-to-b from-gray-50 to-white'>
+    <>
+      <Header />
       <Hero />
 
       <MainContent
         sidebar={<Sidebar activeTab={activeTab} onTabChange={setActiveTab} />}
-        main={<TabContent activeTab={activeTab} onTabChange={setActiveTab} />}
+        main={renderMainContent()}
         features={<FeaturesGrid />}
       />
 
       <Footer />
-    </div>
+    </>
   );
-};
-
-export default Home;
+}

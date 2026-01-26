@@ -1,65 +1,106 @@
-# HashRite.com
-
+HashRite.com
 Cryptographic File Integrity & Verification SaaS
+Generate, verify, and secure digital fingerprints of your files.
 
-## Quick Start
+🚀 Live Demo
+hashrite.com
 
-\`\`\`bash
+📸 Screenshots
+![First Dashboard](./public/screenshots/initial_dashboard.png)
+Modern, clean interface for cryptographic operations
 
-# Install dependencies
+✨ Features
+🔒 Security First
+100% local processing in your browser
 
-npm install
+Files never uploaded to servers
 
-# Start development server
+Zero data retention policy
 
-npm run dev
+Privacy by design
 
-# Build for production
+📁 Flexible Input
+Drag & drop file upload
 
-npm run build
+Direct text input for instant hashing
 
-# Preview production build
+Support for all file types
 
-npm run preview
-\`\`\`
+Up to 100MB file size
 
-## Features
+🔧 Hash Algorithms
+MD5 – Legacy compatibility
 
-- Generate cryptographic hashes (MD5, SHA-256, SHA-512, etc.)
-- Verify file integrity against expected hashes
-- Drag & drop file upload
-- Text input for direct hashing
-- Multiple algorithm support
-- Export results as JSON
-- Copy to clipboard functionality
+SHA-1 – Standard hashing
 
-## Tech Stack
+SHA-256 – Recommended & secure
 
-- **Frontend:** React 18 + TypeScript
-- **Styling:** Tailwind CSS
-- **Build Tool:** Vite
-- **Icons:** Lucide React
-- **Notifications:** React Toastify
+SHA-512 – Maximum security
 
-## Project Structure
+📤 Export Options
+Copy individual hashes to clipboard
 
-\`\`\`
-src/
-├── components/ # Reusable UI components
-├── pages/ # Page components
-├── utils/ # Utility functions
-├── types/ # TypeScript type definitions
-└── services/ # API services
-\`\`\`
+Download all results as JSON
 
-## Development
+Plain text export for documentation
 
-1. Clone the repository
-2. Install dependencies: \`npm install\`
-3. Copy \`.env.example\` to \`.env\`
-4. Start dev server: \`npm run dev\`
-5. Open http://localhost:5173
+Verification IDs for future reference
 
-## License
+🚧 Coming Soon
+🔄 File Verification
 
-MIT
+Batch verification for multiple files
+
+Historical verification records
+
+⚡ Advanced Features
+Batch Processing – Hash multiple files at once
+
+API Access – REST endpoints for developers
+
+Browser Extensions – Chrome & Firefox add-ons
+
+CLI Tool – Command-line interface
+
+📊 Enhanced Experience
+History & Bookmarks – Save frequently used hashes
+
+Team Collaboration – Shared hash libraries
+
+Advanced Algorithms – SHA3, BLAKE2 support
+
+Mobile App – iOS & Android applications
+
+🏢 Enterprise Features
+Audit Logging – Compliance-ready tracking
+
+SSO Integration – Enterprise authentication
+
+API Rate Limiting – Production-ready scaling
+
+Custom Domains – Branded deployments
+
+🎯 Use Cases
+For Developers
+Verify downloaded packages and dependencies
+
+Check file integrity after transfers
+
+Generate hashes for documentation
+
+For Businesses
+Audit trail for critical documents
+
+Compliance with data integrity regulations
+
+Supply chain security validation
+
+For Everyone
+Check downloaded files for tampering
+
+Verify backup integrity
+
+Educational tool for cryptography
+
+Made with 🔒 for the security-conscious community
+HashRite.com – Trust, but verify. With cryptography.

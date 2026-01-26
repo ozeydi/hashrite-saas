@@ -1,29 +1,31 @@
-import { Hash } from 'lucide-react';
+import { Shield, Hash } from 'lucide-react';
 
-const Hero = () => {
+export default function Hero() {
   return (
-    <div className='bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-800 text-white'>
-      <div className='max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8'>
-        <div className='text-center'>
-          <div className='flex items-center justify-center gap-4 mb-6'>
-            <div className='p-3 bg-white/20 rounded-2xl backdrop-blur-sm'>
-              <Hash className='w-12 h-12' />
-            </div>
-            <h1 className='text-5xl md:text-6xl font-bold'>
-              Hash<span className='text-blue-200'>Rite</span>.com
-            </h1>
-          </div>
-          <p className='text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto mb-8'>
-            Cryptographic File Integrity & Verification SaaS
-          </p>
-          <p className='text-lg text-blue-200 max-w-2xl mx-auto'>
-            Generate, verify, and secure digital fingerprints of your files. All
-            processing happens locally in your browser.
-          </p>
+    <section className='bg-gradient-to-r from-blue-600 to-blue-700 text-white py-8'>
+      <div className='max-w-4xl mx-auto text-center px-4'>
+        <div className='flex items-center justify-center gap-4 mb-4'>
+          <Hash className='w-10 h-10' />
+          <Shield className='w-10 h-10' />
+        </div>
+        <h1 className='text-3xl font-bold mb-3'>
+          Cryptographic File Integrity & Verification
+        </h1>
+        <p className='text-blue-100 text-lg'>
+          Generate, verify, and secure digital fingerprints of your files
+        </p>
+        <div className='mt-6 flex flex-wrap justify-center gap-4'>
+          <span className='px-3 py-1 bg-white/20 rounded-full text-sm'>
+            🔒 100% Local Processing
+          </span>
+          <span className='px-3 py-1 bg-white/20 rounded-full text-sm'>
+            ⚡ Instant Results
+          </span>
+          <span className='px-3 py-1 bg-white/20 rounded-full text-sm'>
+            🆓 Free Forever
+          </span>
         </div>
       </div>
-    </div>
+    </section>
   );
-};
-
-export default Hero;
+}

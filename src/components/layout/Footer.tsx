@@ -20,7 +20,8 @@ const Footer = () => {
               API Docs
             </a>
             <a
-              href='https://github.com/ozeydi/hashrite-sass'
+              href='https://github.com/ozeydi/hashrite-saas'
+              target='_blank'
               className='text-gray-600 hover:text-blue-600 text-sm'
             >
               GitHub
