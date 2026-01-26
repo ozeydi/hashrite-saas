@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import FileUpload from './ui/FileUpload';
 import TextInput from './ui/TextInput';
+import AlgorithmSelector from './AlgorithmSelector';
+import HashDisplay from './HashDisplay';
 
 export default function GenerateTab() {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
@@ -9,7 +11,6 @@ export default function GenerateTab() {
   const [hashes, setHashes] = useState<Record<string, string>>({});
 
   const generateHashes = () => {
-    setAlgorithms([]);
     const content = selectedFile ? selectedFile.name : textInput;
     if (!content.trim()) {
       alert('Please upload a file or enter text');
@@ -23,7 +24,6 @@ export default function GenerateTab() {
       ).join('');
     });
     setHashes(newHashes);
-    console.log(hashes);
   };
 
   return (
@@ -34,6 +34,7 @@ export default function GenerateTab() {
 
       <FileUpload onFileSelect={setSelectedFile} />
       <TextInput value={textInput} onChange={setTextInput} />
+      <AlgorithmSelector selected={algorithms} onChange={setAlgorithms} />
 
       <button
         onClick={generateHashes}
@@ -41,6 +42,13 @@ export default function GenerateTab() {
       >
         Generate Hashes
       </button>
+
+      {Object.keys(hashes).length > 0 && (
+        <HashDisplay
+          filename={selectedFile?.name || 'Text Input'}
+          hashes={hashes}
+        />
+      )}
     </div>
   );
 }
