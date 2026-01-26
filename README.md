@@ -1,106 +1,107 @@
-HashRite.com
-Cryptographic File Integrity & Verification SaaS
-Generate, verify, and secure digital fingerprints of your files.
+# 🔐 HashRite.com
+### Cryptographic File Integrity & Verification SaaS
 
-🚀 Live Demo
-hashrite.com
+Generate, verify, and secure digital fingerprints of your files — **locally, privately, and securely**.
 
-📸 Screenshots
-![First Dashboard](./public/screenshots/initial_dashboard.png)
-Modern, clean interface for cryptographic operations
+---
 
-✨ Features
-🔒 Security First
-100% local processing in your browser
+## 🚀 Live Demo
+👉 **https://hashrite.com**
 
-Files never uploaded to servers
+---
 
-Zero data retention policy
+## 📸 Screenshots
 
-Privacy by design
+![First Dashboard](./public/screenshots/initial_dashboard.png)  
+*Modern, clean interface for cryptographic operations*
 
-📁 Flexible Input
-Drag & drop file upload
+---
 
-Direct text input for instant hashing
+## ✨ Features
 
-Support for all file types
+### 🔒 Security First
+- 100% local processing in your browser  
+- Files are **never uploaded** to servers  
+- Zero data retention policy  
+- Privacy-by-design architecture  
 
-Up to 100MB file size
+---
 
-🔧 Hash Algorithms
-MD5 – Legacy compatibility
+### 📁 Flexible Input
+- Drag & drop file uploads  
+- Direct text input for instant hashing  
+- Supports **all file types**  
+- Up to **100MB** file size  
 
-SHA-1 – Standard hashing
+---
 
-SHA-256 – Recommended & secure
+### 🔧 Supported Hash Algorithms
+- **MD5** — Legacy compatibility  
+- **SHA-1** — Standard hashing  
+- **SHA-256** — Recommended & secure  
+- **SHA-512** — Maximum security  
 
-SHA-512 – Maximum security
+---
 
-📤 Export Options
-Copy individual hashes to clipboard
+### 📤 Export Options
+- Copy individual hashes to clipboard  
+- Download all results as **JSON**  
+- Plain text export for documentation  
+- Verification IDs for future reference  
 
-Download all results as JSON
+---
 
-Plain text export for documentation
+## 🚧 Coming Soon
 
-Verification IDs for future reference
+### 🔄 File Verification
+- Batch verification for multiple files  
+- Historical verification records  
 
-🚧 Coming Soon
-🔄 File Verification
+---
 
-Batch verification for multiple files
+### ⚡ Advanced Features
+- **Batch Processing** — Hash multiple files at once  
+- **API Access** — REST endpoints for developers  
+- **Browser Extensions** — Chrome & Firefox add-ons  
+- **CLI Tool** — Command-line interface  
 
-Historical verification records
+---
 
-⚡ Advanced Features
-Batch Processing – Hash multiple files at once
+### 📊 Enhanced Experience
+- **History & Bookmarks** — Save frequently used hashes  
+- **Team Collaboration** — Shared hash libraries  
+- **Advanced Algorithms** — SHA3, BLAKE2 support  
+- **Mobile App** — iOS & Android applications  
 
-API Access – REST endpoints for developers
+---
 
-Browser Extensions – Chrome & Firefox add-ons
+### 🏢 Enterprise Features
+- **Audit Logging** — Compliance-ready tracking  
+- **SSO Integration** — Enterprise authentication  
+- **API Rate Limiting** — Production-ready scaling  
+- **Custom Domains** — Branded deployments  
 
-CLI Tool – Command-line interface
+---
 
-📊 Enhanced Experience
-History & Bookmarks – Save frequently used hashes
+## 🎯 Use Cases
 
-Team Collaboration – Shared hash libraries
+### 👨‍💻 For Developers
+- Verify downloaded packages and dependencies  
+- Check file integrity after transfers  
+- Generate hashes for documentation  
 
-Advanced Algorithms – SHA3, BLAKE2 support
+### 🏢 For Businesses
+- Maintain audit trails for critical documents  
+- Comply with data integrity regulations  
+- Validate supply chain security  
 
-Mobile App – iOS & Android applications
+### 👤 For Everyone
+- Check downloaded files for tampering  
+- Verify backup integrity  
+- Learn cryptography through hands-on usage  
 
-🏢 Enterprise Features
-Audit Logging – Compliance-ready tracking
+---
 
-SSO Integration – Enterprise authentication
+Made with 🔒 for the security-conscious community.  
 
-API Rate Limiting – Production-ready scaling
-
-Custom Domains – Branded deployments
-
-🎯 Use Cases
-For Developers
-Verify downloaded packages and dependencies
-
-Check file integrity after transfers
-
-Generate hashes for documentation
-
-For Businesses
-Audit trail for critical documents
-
-Compliance with data integrity regulations
-
-Supply chain security validation
-
-For Everyone
-Check downloaded files for tampering
-
-Verify backup integrity
-
-Educational tool for cryptography
-
-Made with 🔒 for the security-conscious community
-HashRite.com – Trust, but verify. With cryptography.
+**HashRite.com — Trust, but verify. With cryptography.**
