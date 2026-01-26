@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import Header from '../components/layout/Header';
 import VerifyTab from '../components/VerifyTab';
-import Footer from '../components/layout/Footer';
 import {
   FeaturesGrid,
+  Footer,
+  GenerateTab,
   Hero,
   MainContent,
   Sidebar,
-  GenerateTab,
 } from '@/components';
 
 export default function Home() {
