@@ -24,6 +24,7 @@ export default defineConfig({
           ui: ['lucide-react', 'react-toastify'],
         },
       },
+      external: [],
     },
   },
 });
