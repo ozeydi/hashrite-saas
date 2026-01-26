@@ -24,6 +24,12 @@ export default defineConfig({
           ui: ['lucide-react', 'react-toastify'],
         },
       },
+      external: [],
+    },
+  },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src'),
     },
   },
 });
