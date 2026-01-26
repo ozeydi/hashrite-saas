@@ -6,6 +6,8 @@ export { default as GenerateTab } from './GenerateTab';
 export { default as VerifyTab } from './VerifyTab';
 export { default as FileUpload } from './ui/FileUpload';
 export { default as Button } from './ui/Button';
+export { default as Card } from './ui/Card';
+
 export { default as TextInput } from './ui/TextInput';
 export { default as AlgorithmSelector } from './AlgorithmSelector';
 export { default as VerificationResult } from './VerificationResult';
